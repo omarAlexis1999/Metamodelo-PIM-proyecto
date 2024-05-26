@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModeladoCalculadoraCaloriasIngerir:Persona
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ModeladoCalculadoraCaloriasIngerir="http://modelado-calculadora-caloriasIngerir.ecore"
+    xsi:schemaLocation="http://modelado-calculadora-caloriasIngerir.ecore ../metamodelado/metamodelo_calculadora_calorias_ingerir.ecore"
+    nombres="Omar Sanmartin"
+    fechaNacimiento="1999-10-08T00:00:00.000-0500"
+    peso="70.0"
+    altura="1.7"
+    sexo="M">
+  <InformacionMedica
+      densidadCalorica="Alta"
+      indiceGlucemico="Bajo"/>
+  <tiene nombre="Gastritis"
+      observacion="No se ha evidenciado mas continuidad"/>
+  <tiene nombre="Dengue"
+      estaConsumiendoMedicacion="true"
+      observacion="Dense leve por picadura de mosquito"/>
+  <nivel nombre="Gym"
+      rangoInicioDia="2024-05-20T15:00:00.000-0500"
+      rangoFinalDia="2024-05-20T16:30:00.000-0500"/>
+  <ingesta unidades="6"
+      caloria="15.3"
+      denominacionCaloria="Normal"
+      fecha="2024-05-20T00:00:00.000-0500"/>
+</ModeladoCalculadoraCaloriasIngerir:Persona>

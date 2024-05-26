@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModeladoCalculadoraCaloriasIngerir:Alimento
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ModeladoCalculadoraCaloriasIngerir="http://modelado-calculadora-caloriasIngerir.ecore"
+    xsi:schemaLocation="http://modelado-calculadora-caloriasIngerir.ecore ../metamodelado/metamodelo_calculadora_calorias_ingerir.ecore"
+    tipo="Carbohidrato"
+    nombre="Pan"
+    calorias="15.0"
+    carbohidratos="21.0"
+    grasas="12.0"
+    fibra="4152.0"
+    unidadMedida="kg">
+  <nutriente
+      tipoNutriente="Calorico"
+      nombre="P2A"
+      valor="16.0"/>
+  <ingesta unidades="10"
+      caloria="12.0"
+      denominacionCaloria="16"
+      fecha="2024-05-23T00:00:00.000-0500"/>
+</ModeladoCalculadoraCaloriasIngerir:Alimento>

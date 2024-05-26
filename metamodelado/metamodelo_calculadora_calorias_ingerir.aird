@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_vN5CgBr_Ee-usYSZpUVa5g" selectedViews="_vQ6hUBr_Ee-usYSZpUVa5g _vRHVoBr_Ee-usYSZpUVa5g _vRJK0Br_Ee-usYSZpUVa5g _vRNcQBr_Ee-usYSZpUVa5g" version="15.2.0.202303281325">
+    <semanticResources>metamodelo_calculadora_calorias_ingerir.ecore</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vQ6hUBr_Ee-usYSZpUVa5g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_vuRywBr_Ee-usYSZpUVa5g" name=" class diagram" repPath="#_vuLFEBr_Ee-usYSZpUVa5g" changeId="1716690044249">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="metamodelo_calculadora_calorias_ingerir.ecore#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vRHVoBr_Ee-usYSZpUVa5g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vRJK0Br_Ee-usYSZpUVa5g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Archetype']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vRNcQBr_Ee-usYSZpUVa5g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Generation']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_vuLFEBr_Ee-usYSZpUVa5g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_vuYgcBr_Ee-usYSZpUVa5g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vuYgcRr_Ee-usYSZpUVa5g" type="Sirius" element="_vuLFEBr_Ee-usYSZpUVa5g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_svM9EBsAEe-usYSZpUVa5g" type="2003" element="_svJSsBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_svNkIBsAEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_svNkIRsAEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_SDvKkBsBEe-usYSZpUVa5g" type="3010" element="_SDqSEBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_SDvKkRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_SDvKkhsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_SyREgBsBEe-usYSZpUVa5g" type="3010" element="_SyMzEBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_SyREgRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_SyREghsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UOi1QBsBEe-usYSZpUVa5g" type="3010" element="_UOcHkBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_UOi1QRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_UOi1QhsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VDs7oBsBEe-usYSZpUVa5g" type="3010" element="_VDncEBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VDs7oRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VDs7ohsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_V4fOkBsBEe-usYSZpUVa5g" type="3010" element="_V4aWEBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_V4fOkRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_V4fOkhsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gqLPgBsBEe-usYSZpUVa5g" type="3010" element="_gqGXABsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_gqLPgRsBEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gqLPghsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_icJjcBsBEe-usYSZpUVa5g" type="3010" element="_icFSABsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_icJjcRsBEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_icJjchsBEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_svNkIhsAEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_svNkIxsAEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_svM9ERsAEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_svM9EhsAEe-usYSZpUVa5g" x="775" y="105" width="163" height="153"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_u5AiMBsAEe-usYSZpUVa5g" type="2003" element="_u4-F8BsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_u5BJQBsAEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_u5BJQRsAEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_m_Dt8BsBEe-usYSZpUVa5g" type="3010" element="_m--1cBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_m_Dt8RsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_m_Dt8hsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pKS2cBsBEe-usYSZpUVa5g" type="3010" element="_pKN98BsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_pKS2cRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pKS2chsBEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_u5BJQhsAEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_u5BJQxsAEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_u5AiMRsAEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u5AiMhsAEe-usYSZpUVa5g" x="1120" y="100" width="178" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xWregBsAEe-usYSZpUVa5g" type="2003" element="_xWn0IBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_xWregxsAEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_xWrehBsAEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_tOhg4BsBEe-usYSZpUVa5g" type="3010" element="_tOdPcBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_tOhg4RsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_tOhg4hsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uImjgBsBEe-usYSZpUVa5g" type="3010" element="_uIhD8BsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_uImjgRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uImjghsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_wzZ84BsBEe-usYSZpUVa5g" type="3010" element="_wzVEYBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_wzZ84RsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wzZ84hsBEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_xWrehRsAEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_xWrehhsAEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xWregRsAEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xWreghsAEe-usYSZpUVa5g" x="1095" y="250" width="198" height="98"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0QzGQBsAEe-usYSZpUVa5g" type="2003" element="_0Qu00BsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_0QzGQxsAEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_0QzGRBsAEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vHNrYBsCEe-usYSZpUVa5g" type="3010" element="_vHIL0BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vHNrYRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vHNrYhsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_v5Vr4BsCEe-usYSZpUVa5g" type="3010" element="_v5QMUBsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_v5Vr4RsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_v5Vr4hsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_wnMQYBsCEe-usYSZpUVa5g" type="3010" element="_wnGw0BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_wnMQYRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wnMQYhsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_xaxCYBsCEe-usYSZpUVa5g" type="3010" element="_xari0BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_xaxCYRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_xaxCYhsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ytUPYBsCEe-usYSZpUVa5g" type="3010" element="_ytPW4BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ytUPYRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ytUPYhsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_z0HfYBsCEe-usYSZpUVa5g" type="3010" element="_z0B_0BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_z0HfYRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_z0HfYhsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_06xlcBsCEe-usYSZpUVa5g" type="3010" element="_06sF4BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_06xlcRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_06xlchsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_15tS4BsCEe-usYSZpUVa5g" type="3010" element="_15nzUBsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_15tS4RsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_15tS4hsCEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0QzGRRsAEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0QzGRhsAEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0QzGQRsAEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0QzGQhsAEe-usYSZpUVa5g" x="170" y="105" width="178" height="180"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0wPbUBsAEe-usYSZpUVa5g" type="2003" element="_0wLw8BsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_0wPbUxsAEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_0wPbVBsAEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_9Vj14BsBEe-usYSZpUVa5g" type="3010" element="_9Ve9YBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_9Vj14RsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_9Vj14hsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-VzK4BsBEe-usYSZpUVa5g" type="3010" element="_-VuSYBsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_-VzK4RsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_-VzK4hsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__YGVYBsBEe-usYSZpUVa5g" type="3010" element="__YBc4BsBEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="__YGVYRsBEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__YGVYhsBEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_A2tBYBsCEe-usYSZpUVa5g" type="3010" element="_A2oI4BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_A2tBYRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_A2tBYhsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dLYX8BsCEe-usYSZpUVa5g" type="3010" element="_dLSRUBsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_dLYX8RsCEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dLYX8hsCEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0wPbVRsAEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0wPbVhsAEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0wPbURsAEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wPbUhsAEe-usYSZpUVa5g" x="805" y="415" width="158" height="118"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3HwFQBsAEe-usYSZpUVa5g" type="2003" element="_3Hsa4BsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_3HwFQxsAEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_3HwFRBsAEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_hGdGYBsCEe-usYSZpUVa5g" type="3010" element="_hGXm0BsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_hGdGYRsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hGdGYhsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hzi14BsCEe-usYSZpUVa5g" type="3010" element="_hzdWUBsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_hzi14RsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hzi14hsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ifeu0BsCEe-usYSZpUVa5g" type="3010" element="_ifZ2UBsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ifeu0RsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ifeu0hsCEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_mFSX4BsCEe-usYSZpUVa5g" type="3010" element="_mFM4UBsCEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_mFSX4RsCEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_mFSX4hsCEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3HwFRRsAEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3HwFRhsAEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3HwFQRsAEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HwFQhsAEe-usYSZpUVa5g" x="510" y="118" width="157" height="128"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5sddsBsAEe-usYSZpUVa5g" type="2003" element="_5sZzUBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_5sddsxsAEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_5sddtBsAEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_ISjScBsDEe-usYSZpUVa5g" type="3010" element="_ISdy4BsDEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ISjScRsDEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ISjSchsDEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_OE99ABsDEe-usYSZpUVa5g" type="3010" element="_OE3PUBsDEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_OE99ARsDEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OE99AhsDEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_OrGI4BsDEe-usYSZpUVa5g" type="3010" element="_OrApUBsDEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_OrGI4RsDEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OrGI4hsDEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5sddtRsAEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5sddthsAEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5sddsRsAEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5sddshsAEe-usYSZpUVa5g" x="190" y="385" width="168" height="113"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_PoyLEBsBEe-usYSZpUVa5g" type="2003" element="_PovHwBsBEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_PoyLExsBEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_PoyyIBsBEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_QipgYBsDEe-usYSZpUVa5g" type="3010" element="_QiiysBsDEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_QipgYRsDEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_QipgYhsDEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Rp-U0BsDEe-usYSZpUVa5g" type="3010" element="_Rp4OMBsDEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Rp-U0RsDEe-usYSZpUVa5g" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Rp-U0hsDEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_PoyyIRsBEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_PoyyIhsBEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_PoyLERsBEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PoyLEhsBEe-usYSZpUVa5g" x="497" y="375" width="153" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2_ahQBsDEe-usYSZpUVa5g" type="2003" element="_2_VBsBsDEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_2_bIUBsDEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_2_bIURsDEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_BOxRMBsEEe-usYSZpUVa5g" type="3010" element="_BOrxoBsEEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_BOxRMRsEEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_BOxRMhsEEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_CJcJsBsEEe-usYSZpUVa5g" type="3010" element="_CJWDEBsEEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_CJcJsRsEEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_CJcJshsEEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_C-2HsBsEEe-usYSZpUVa5g" type="3010" element="_C-wBEBsEEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_C-2HsRsEEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_C-2HshsEEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_2_bIUhsDEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_2_bIUxsDEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2_ahQRsDEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2_ahQhsDEe-usYSZpUVa5g" x="520" y="530" width="138" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5WFdsBsDEe-usYSZpUVa5g" type="2003" element="_5WAlMBsDEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_5WFdsxsDEe-usYSZpUVa5g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_5WGEwBsDEe-usYSZpUVa5g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_-P-k0BsDEe-usYSZpUVa5g" type="3010" element="_-P4eMBsDEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_-P-k0RsDEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_-P-k0hsDEe-usYSZpUVa5g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__lQVsBsDEe-usYSZpUVa5g" type="3010" element="__lK2IBsDEe-usYSZpUVa5g">
+              <styles xmi:type="notation:FontStyle" xmi:id="__lQVsRsDEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__lQVshsDEe-usYSZpUVa5g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5WGEwRsDEe-usYSZpUVa5g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5WGEwhsDEe-usYSZpUVa5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5WFdsRsDEe-usYSZpUVa5g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5WFdshsDEe-usYSZpUVa5g" x="214" y="530" width="120" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vuYgchr_Ee-usYSZpUVa5g"/>
+        <edges xmi:type="notation:Edge" xmi:id="_GdkRUBsEEe-usYSZpUVa5g" type="4001" element="_GdSkgBsEEe-usYSZpUVa5g" source="_svM9EBsAEe-usYSZpUVa5g" target="_u5AiMBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_Gdk4YBsEEe-usYSZpUVa5g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gdk4YRsEEe-usYSZpUVa5g" x="7" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Gdk4YhsEEe-usYSZpUVa5g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gdk4YxsEEe-usYSZpUVa5g" x="31" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Gdk4ZBsEEe-usYSZpUVa5g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gdk4ZRsEEe-usYSZpUVa5g" x="-36" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GdkRURsEEe-usYSZpUVa5g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GdkRUhsEEe-usYSZpUVa5g" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GdkRUxsEEe-usYSZpUVa5g" points="[0, 10, -184, 0]$[184, 10, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GdlfcBsEEe-usYSZpUVa5g" id="(1.0,0.06622516556291391)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GdlfcRsEEe-usYSZpUVa5g" id="(0.0,0.352112676056338)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NuVwQBsEEe-usYSZpUVa5g" type="4001" element="_NuJjABsEEe-usYSZpUVa5g" source="_svM9EBsAEe-usYSZpUVa5g" target="_xWregBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_NuVwRBsEEe-usYSZpUVa5g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NuVwRRsEEe-usYSZpUVa5g" x="43" y="-45"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NuVwRhsEEe-usYSZpUVa5g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NuVwRxsEEe-usYSZpUVa5g" x="13" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NuWXUBsEEe-usYSZpUVa5g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NuWXURsEEe-usYSZpUVa5g" x="39" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NuVwQRsEEe-usYSZpUVa5g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NuVwQhsEEe-usYSZpUVa5g" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NuVwQxsEEe-usYSZpUVa5g" points="[0, 56, -184, -69]$[73, 56, -111, -69]$[73, 174, -111, 49]$[159, 174, -25, 49]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NuWXUhsEEe-usYSZpUVa5g" id="(1.0,0.13245033112582782)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NuWXUxsEEe-usYSZpUVa5g" id="(0.12755102040816327,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_evuNoBsEEe-usYSZpUVa5g" type="4001" element="_evnf_BsEEe-usYSZpUVa5g" source="_svM9EBsAEe-usYSZpUVa5g" target="_0wPbUBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_evuNpBsEEe-usYSZpUVa5g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_evuNpRsEEe-usYSZpUVa5g" x="13" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_evuNphsEEe-usYSZpUVa5g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_evuNpxsEEe-usYSZpUVa5g" x="4" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_evuNqBsEEe-usYSZpUVa5g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_evuNqRsEEe-usYSZpUVa5g" x="2" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_evuNoRsEEe-usYSZpUVa5g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_evuNohsEEe-usYSZpUVa5g" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_evuNoxsEEe-usYSZpUVa5g" points="[10, 0, 3, -159]$[10, 159, 3, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_evu0sBsEEe-usYSZpUVa5g" id="(0.43478260869565216,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_evu0sRsEEe-usYSZpUVa5g" id="(0.30128205128205127,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_plAVIBsEEe-usYSZpUVa5g" type="4001" element="_pkxroxsEEe-usYSZpUVa5g" source="_svM9EBsAEe-usYSZpUVa5g" target="_3HwFQBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_plA8MBsEEe-usYSZpUVa5g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_plA8MRsEEe-usYSZpUVa5g" x="-27" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_plA8MhsEEe-usYSZpUVa5g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_plA8MxsEEe-usYSZpUVa5g" x="-3" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_plA8NBsEEe-usYSZpUVa5g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_plA8NRsEEe-usYSZpUVa5g" x="-32" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_plAVIRsEEe-usYSZpUVa5g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_plAVIhsEEe-usYSZpUVa5g" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_plAVIxsEEe-usYSZpUVa5g" points="[0, 21, 110, 0]$[-110, 21, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_plA8NhsEEe-usYSZpUVa5g" id="(0.0,0.09933774834437085)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_plA8NxsEEe-usYSZpUVa5g" id="(1.0,0.18253968253968253)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_u6S-0BsEEe-usYSZpUVa5g" type="4001" element="_u6FjfBsEEe-usYSZpUVa5g" source="_0QzGQBsAEe-usYSZpUVa5g" target="_5sddsBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_u6Tl4BsEEe-usYSZpUVa5g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6Tl4RsEEe-usYSZpUVa5g" x="-23" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_u6Tl4hsEEe-usYSZpUVa5g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6Tl4xsEEe-usYSZpUVa5g" x="16" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_u6Tl5BsEEe-usYSZpUVa5g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6Tl5RsEEe-usYSZpUVa5g" x="-76" y="25"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_u6S-0RsEEe-usYSZpUVa5g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_u6S-0hsEEe-usYSZpUVa5g" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u6S-0xsEEe-usYSZpUVa5g" points="[83, 163, -103, -115]$[83, 265, -103, -13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u6Tl5hsEEe-usYSZpUVa5g" id="(0.0,0.08426966292134831)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u6Tl5xsEEe-usYSZpUVa5g" id="(1.0,0.11711711711711711)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NiURABsFEe-usYSZpUVa5g" type="4001" element="_NiFngBsFEe-usYSZpUVa5g" source="_0QzGQBsAEe-usYSZpUVa5g" target="_3HwFQBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_NiURBBsFEe-usYSZpUVa5g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NiURBRsFEe-usYSZpUVa5g" x="32" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NiURBhsFEe-usYSZpUVa5g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NiURBxsFEe-usYSZpUVa5g" x="44" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NiU4EBsFEe-usYSZpUVa5g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NiU4ERsFEe-usYSZpUVa5g" x="1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NiURARsFEe-usYSZpUVa5g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NiURAhsFEe-usYSZpUVa5g" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NiURAxsFEe-usYSZpUVa5g" points="[0, 0, -164, -1]$[164, 0, 0, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NiU4EhsFEe-usYSZpUVa5g" id="(1.0,0.10674157303370786)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NiU4ExsFEe-usYSZpUVa5g" id="(0.0,0.05555555555555555)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Vg7tYBsFEe-usYSZpUVa5g" type="4001" element="_Vg0YphsFEe-usYSZpUVa5g" source="_PoyLEBsBEe-usYSZpUVa5g" target="_3HwFQBsAEe-usYSZpUVa5g">
+          <children xmi:type="notation:Node" xmi:id="_Vg7tZBsFEe-usYSZpUVa5g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vg7tZRsFEe-usYSZpUVa5g" x="15" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Vg7tZhsFEe-usYSZpUVa5g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vg7tZxsFEe-usYSZpUVa5g" x="26" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Vg7taBsFEe-usYSZpUVa5g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vg7taRsFEe-usYSZpUVa5g" x="4" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Vg7tYRsFEe-usYSZpUVa5g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Vg7tYhsFEe-usYSZpUVa5g" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Vg7tYxsFEe-usYSZpUVa5g" points="[0, 0, -15, 131]$[0, -131, -15, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Vg8UcBsFEe-usYSZpUVa5g" id="(0.6490066225165563,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Vg8UcRsFEe-usYSZpUVa5g" id="(0.6451612903225806,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_vuaVoBr_Ee-usYSZpUVa5g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_vuaVoRr_Ee-usYSZpUVa5g">
+        <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_IQEJsBsEEe-usYSZpUVa5g" sourceArrow="FillDiamond" routingStyle="manhattan">
+          <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <centerLabelStyleDescription xmi:type="style:CenterLabelStyleDescription" xmi:id="_IQEJsRsEEe-usYSZpUVa5g" showIcon="false" labelExpression="service:render">
+            <labelFormat>bold</labelFormat>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </centerLabelStyleDescription>
+          <endLabelStyleDescription xmi:type="style:EndLabelStyleDescription" xmi:id="_IQEJshsEEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelExpression="service:eKeysLabel">
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </endLabelStyleDescription>
+        </computedStyleDescriptions>
+        <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_f_c6sBsFEe-usYSZpUVa5g" routingStyle="manhattan">
+          <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <centerLabelStyleDescription xmi:type="style:CenterLabelStyleDescription" xmi:id="_f_c6sRsFEe-usYSZpUVa5g" showIcon="false" labelExpression="service:render">
+            <labelFormat>bold</labelFormat>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </centerLabelStyleDescription>
+          <endLabelStyleDescription xmi:type="style:EndLabelStyleDescription" xmi:id="_f_c6shsFEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelExpression="service:eKeysLabel">
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </endLabelStyleDescription>
+        </computedStyleDescriptions>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_svJSsBsAEe-usYSZpUVa5g" name="Persona" tooltipText="" outgoingEdges="_GdSkgBsEEe-usYSZpUVa5g _NuJjABsEEe-usYSZpUVa5g _evnf_BsEEe-usYSZpUVa5g _pkxroxsEEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_cYqPoRsEEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_SDqSEBsBEe-usYSZpUVa5g" name="nombres : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/nombres"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/nombres"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_aMYFoRsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_SyMzEBsBEe-usYSZpUVa5g" name="fechaNacimiento : EDate" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/fechaNacimiento"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/fechaNacimiento"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_bUdIERsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_UOcHkBsBEe-usYSZpUVa5g" name="peso : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/peso"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/peso"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_cipZdRsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_VDncEBsBEe-usYSZpUVa5g" name="altura : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/altura"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/altura"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_dtKEwhsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_V4aWEBsBEe-usYSZpUVa5g" name="sexo : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/sexo"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/sexo"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_fJb1ghsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_gqGXABsBEe-usYSZpUVa5g" name="calcularEdad()" tooltipText="calcularEdad()">
+        <target xmi:type="ecore:EOperation" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/calcularEdad"/>
+        <semanticElements xmi:type="ecore:EOperation" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/calcularEdad"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_gqG-EBsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_icFSABsBEe-usYSZpUVa5g" name="calcularIMC()" tooltipText="calcularIMC()">
+        <target xmi:type="ecore:EOperation" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/calcularIMC"/>
+        <semanticElements xmi:type="ecore:EOperation" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/calcularIMC"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_icFSARsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_u4-F8BsAEe-usYSZpUVa5g" name="InformacionMedica" tooltipText="" incomingEdges="_GdSkgBsEEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//InformacionMedica"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//InformacionMedica"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_riHpcxsBEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_m--1cBsBEe-usYSZpUVa5g" name="densidadCalorica : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//InformacionMedica/densidadCalorica"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//InformacionMedica/densidadCalorica"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_qr-roRsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_pKN98BsBEe-usYSZpUVa5g" name="indiceGlucemico : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//InformacionMedica/indiceGlucemico"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//InformacionMedica/indiceGlucemico"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_riJeohsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_xWn0IBsAEe-usYSZpUVa5g" name="Enfermedades" tooltipText="" incomingEdges="_NuJjABsEEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6bLIYxsBEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_tOdPcBsBEe-usYSZpUVa5g" name="nombre : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades/nombre"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades/nombre"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_zxrr5xsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_uIhD8BsBEe-usYSZpUVa5g" name="estaConsumiendoMedicacion : EBoolean = false" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades/estaConsumiendoMedicacion"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades/estaConsumiendoMedicacion"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_2kAChBsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_wzVEYBsBEe-usYSZpUVa5g" name="observacion : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades/observacion"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Enfermedades/observacion"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_6bMWhRsBEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_0Qu00BsAEe-usYSZpUVa5g" name="Alimento" tooltipText="" outgoingEdges="_u6FjfBsEEe-usYSZpUVa5g _NiFngBsFEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AnNXZxsDEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_vHIL0BsCEe-usYSZpUVa5g" name="tipo : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/tipo"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/tipo"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_5OZWyhsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_v5QMUBsCEe-usYSZpUVa5g" name="nombre : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/nombre"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/nombre"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_6YB4UhsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_wnGw0BsCEe-usYSZpUVa5g" name="calorias : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/calorias"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/calorias"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_7XfKOhsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_xari0BsCEe-usYSZpUVa5g" name="proteinas : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/proteinas"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/proteinas"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_8dIjpxsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ytPW4BsCEe-usYSZpUVa5g" name="carbohidratos : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/carbohidratos"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/carbohidratos"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_9nF1URsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_z0B_0BsCEe-usYSZpUVa5g" name="grasas : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/grasas"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/grasas"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_-yKhVhsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_06sF4BsCEe-usYSZpUVa5g" name="fibra : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/fibra"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/fibra"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="__pTkuBsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_15nzUBsCEe-usYSZpUVa5g" name="unidadMedida : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/unidadMedida"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/unidadMedida"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_AnPMkhsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_0wLw8BsAEe-usYSZpUVa5g" name="NivelActividad" tooltipText="" incomingEdges="_evnf_BsEEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bTzyWRsCEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_9Ve9YBsBEe-usYSZpUVa5g" name="nombre : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/nombre"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/nombre"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_HElf9xsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_-VuSYBsBEe-usYSZpUVa5g" name="descripcion : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/descripcion"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/descripcion"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_YfScQhsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="__YBc4BsBEe-usYSZpUVa5g" name="rangoInicioDia : EDate" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/rangoInicioDia"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/rangoInicioDia"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_aVQfZhsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_A2oI4BsCEe-usYSZpUVa5g" name="rangoFinalDia : EDate" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/rangoFinalDia"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/rangoFinalDia"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_bT1AeRsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_dLSRUBsCEe-usYSZpUVa5g" name="getRangoDias()" tooltipText="getRangoDias()">
+        <target xmi:type="ecore:EOperation" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/getRangoDias"/>
+        <semanticElements xmi:type="ecore:EOperation" href="metamodelo_calculadora_calorias_ingerir.ecore#//NivelActividad/getRangoDias"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_dLS4YBsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3Hsa4BsAEe-usYSZpUVa5g" name="Ingesta" tooltipText="" incomingEdges="_pkxroxsEEe-usYSZpUVa5g _NiFngBsFEe-usYSZpUVa5g _Vg0YphsFEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ryGJsxsCEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_hGXm0BsCEe-usYSZpUVa5g" name="unidades : EInt" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/unidades"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/unidades"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_oV4hhhsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_hzdWUBsCEe-usYSZpUVa5g" name="caloria : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/caloria"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/caloria"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_pZ7YdxsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ifZ2UBsCEe-usYSZpUVa5g" name="denominacionCaloria : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/denominacionCaloria"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/denominacionCaloria"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_q_MGERsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_mFM4UBsCEe-usYSZpUVa5g" name="fecha : EDate" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/fecha"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Ingesta/fecha"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_ryHX2BsCEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_5sZzUBsAEe-usYSZpUVa5g" name="Nutriente" tooltipText="" incomingEdges="_u6FjfBsEEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Vd6gjRsDEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ISdy4BsDEe-usYSZpUVa5g" name="tipoNutriente : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente/tipoNutriente"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente/tipoNutriente"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_TNnR2RsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_OE3PUBsDEe-usYSZpUVa5g" name="nombre : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente/nombre"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente/nombre"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_UX56thsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_OrApUBsDEe-usYSZpUVa5g" name="valor : EDouble = 0.0" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente/valor"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//Nutriente/valor"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_Vd8VuRsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_PovHwBsBEe-usYSZpUVa5g" name="ComidaDia" tooltipText="" outgoingEdges="_Vg0YphsFEe-usYSZpUVa5g" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f_W0FxsFEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_QiiysBsDEe-usYSZpUVa5g" name="nombreTipoComida : EString" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia/nombreTipoComida"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia/nombreTipoComida"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_XAYY0hsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Rp4OMBsDEe-usYSZpUVa5g" name="hora : EDate" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia/hora"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia/hora"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_ZtzBWhsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_2_VBsBsDEe-usYSZpUVa5g" name="NombreTipoComida" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EEnum" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida"/>
+      <semanticElements xmi:type="ecore:EEnum" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2_VowBsDEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="221,236,202">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_BOrxoBsEEe-usYSZpUVa5g" name="DESAYUNO" tooltipText="">
+        <target xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida/DESAYUNO"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida/DESAYUNO"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_BOrxoRsEEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_CJWDEBsEEe-usYSZpUVa5g" name="ALMUERZO" tooltipText="">
+        <target xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida/ALMUERZO"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida/ALMUERZO"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_CJWDERsEEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_C-wBEBsEEe-usYSZpUVa5g" name="MERIENDA" tooltipText="">
+        <target xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida/MERIENDA"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//NombreTipoComida/MERIENDA"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_C-wBERsEEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_5WAlMBsDEe-usYSZpUVa5g" name="TipoNutriente" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EEnum" href="metamodelo_calculadora_calorias_ingerir.ecore#//TipoNutriente"/>
+      <semanticElements xmi:type="ecore:EEnum" href="metamodelo_calculadora_calorias_ingerir.ecore#//TipoNutriente"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5WAlMRsDEe-usYSZpUVa5g" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="221,236,202">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_-P4eMBsDEe-usYSZpUVa5g" name="VITAMINA" tooltipText="">
+        <target xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//TipoNutriente/VITAMINA"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//TipoNutriente/VITAMINA"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_-P5FQBsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="__lK2IBsDEe-usYSZpUVa5g" name="MINERALES" tooltipText="">
+        <target xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//TipoNutriente/MINERALES"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="metamodelo_calculadora_calorias_ingerir.ecore#//TipoNutriente/MINERALES"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="__lLdMBsDEe-usYSZpUVa5g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GdSkgBsEEe-usYSZpUVa5g" name="[1..1] InformacionMedica" sourceNode="_svJSsBsAEe-usYSZpUVa5g" targetNode="_u4-F8BsAEe-usYSZpUVa5g">
+      <target xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/InformacionMedica"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/InformacionMedica"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_cYxkYBsEEe-usYSZpUVa5g" description="_IQEJsBsEEe-usYSZpUVa5g" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_cYxkYhsEEe-usYSZpUVa5g" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_cYxkYRsEEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NuJjABsEEe-usYSZpUVa5g" name="[1..*] tiene" sourceNode="_svJSsBsAEe-usYSZpUVa5g" targetNode="_xWn0IBsAEe-usYSZpUVa5g">
+      <target xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/tiene"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/tiene"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_SohLQBsEEe-usYSZpUVa5g" description="_IQEJsBsEEe-usYSZpUVa5g" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_SohLQhsEEe-usYSZpUVa5g" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_SohLQRsEEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_evnf_BsEEe-usYSZpUVa5g" name="[1..*] nivel" sourceNode="_svJSsBsAEe-usYSZpUVa5g" targetNode="_0wLw8BsAEe-usYSZpUVa5g">
+      <target xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/nivel"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/nivel"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kjh_VhsEEe-usYSZpUVa5g" description="_IQEJsBsEEe-usYSZpUVa5g" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kjh_WBsEEe-usYSZpUVa5g" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_kjh_VxsEEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pkxroxsEEe-usYSZpUVa5g" name="[1..*] ingesta" sourceNode="_svJSsBsAEe-usYSZpUVa5g" targetNode="_3Hsa4BsAEe-usYSZpUVa5g">
+      <target xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/ingesta"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Persona/ingesta"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_rU9P1hsEEe-usYSZpUVa5g" description="_IQEJsBsEEe-usYSZpUVa5g" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_rU9P2BsEEe-usYSZpUVa5g" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_rU9P1xsEEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_u6FjfBsEEe-usYSZpUVa5g" name="[1..*] nutriente" sourceNode="_0Qu00BsAEe-usYSZpUVa5g" targetNode="_5sZzUBsAEe-usYSZpUVa5g">
+      <target xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/nutriente"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/nutriente"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zE6lMhsEEe-usYSZpUVa5g" description="_IQEJsBsEEe-usYSZpUVa5g" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zE6lNBsEEe-usYSZpUVa5g" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_zE6lMxsEEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NiFngBsFEe-usYSZpUVa5g" name="[1..*] ingesta" sourceNode="_0Qu00BsAEe-usYSZpUVa5g" targetNode="_3Hsa4BsAEe-usYSZpUVa5g">
+      <target xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/ingesta"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//Alimento/ingesta"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ORPzlhsFEe-usYSZpUVa5g" description="_IQEJsBsEEe-usYSZpUVa5g" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ORPzmBsFEe-usYSZpUVa5g" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_ORPzlxsFEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Vg0YphsFEe-usYSZpUVa5g" name="[1..*] comida" sourceNode="_PovHwBsBEe-usYSZpUVa5g" targetNode="_3Hsa4BsAEe-usYSZpUVa5g">
+      <target xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia/comida"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelo_calculadora_calorias_ingerir.ecore#//ComidaDia/comida"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f_c6sxsFEe-usYSZpUVa5g" description="_f_c6sBsFEe-usYSZpUVa5g" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_f_c6tRsFEe-usYSZpUVa5g" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f_c6tBsFEe-usYSZpUVa5g" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_vuP9kBr_Ee-usYSZpUVa5g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Archetype']/@ownedRepresentationExtensions[name='Entities%20With%20Archetypes']/@layers[name='Archetypes']"/>
+    <target xmi:type="ecore:EPackage" href="metamodelo_calculadora_calorias_ingerir.ecore#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
